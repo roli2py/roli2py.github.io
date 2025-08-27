@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 
-import "./navigation.module.css";
+import "./navigation.css";
 
 
 export default function Navigation() {
