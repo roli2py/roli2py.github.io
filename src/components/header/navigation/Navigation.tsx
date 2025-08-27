@@ -22,6 +22,13 @@ export default function Navigation() {
             </li>
             <li>
                 <Link
+                    to="/contacts"
+                >
+                    Contacts
+                </Link>
+            </li>
+            <li>
+                <Link
                     to="/support"
                 >
                     Support

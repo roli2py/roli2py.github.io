@@ -5,8 +5,13 @@
     font-style: normal;
 }
 
+.top-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .background {
-    display: flow-root;
     background-color: #0C0500;
     height: 100vh;
     color: bisque;
@@ -32,7 +37,7 @@
     z-index: 2;
 }
 
-.bare-light {
+.weak-light {
     position: fixed;
     width: 70vh;
     height: 70vh;
@@ -42,8 +47,10 @@
 }
 
 main {
-    margin: 0 14em;
+    max-width: 56em;
+    margin: 0 2em;
     padding: 1em;
+    box-sizing: border-box;
     background-color: rgb(15, 15, 15);
     border-radius: 1em;
     box-shadow: rgb(95, 74, 55, 0.5) 0 0 .25em;
@@ -57,4 +64,41 @@ main :first-child {
 main:last-child,
 main :last-child {
     margin-bottom: 0;
+}
+
+@media screen and (width <=110em) {
+    .weak-light {
+        width: 60vh;
+        height: 60vh;
+    }
+}
+
+@media screen and (width <=86em) {
+    .weak-light {
+        width: 50vh;
+        height: 50vh;
+    }
+}
+
+@media screen and (width <=70em) {
+    .weak-light {
+        width: 40vh;
+        height: 40vh;
+    }
+}
+
+a:link {
+    color: #ff9d53;
+}
+
+a:visited {
+    color: #ffd573;
+}
+
+a:hover {
+    color: #ffb883;
+}
+
+a:active {
+    color: orangered;
 }

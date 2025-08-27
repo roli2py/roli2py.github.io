@@ -15,7 +15,10 @@ header {
     color: #d8a87c;
 }
 
-header a {
+header a:link,
+header a:visited,
+header a:hover,
+header a:active {
     color: inherit;
     text-decoration: inherit;
 }
