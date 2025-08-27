@@ -1,3 +1,22 @@
+/* Expand the body to full screen. Solve the problem with `width: 100%` on the child elements */
 body {
-    height: 100vh;
+    min-height: 100vh;
+    background-color: #0C0500;
+    color: bisque;
+}
+
+/* The noise of the background */
+body:before {
+    z-index: 1;
+    content: "";
+    background-color: transparent;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 100vh;
+    opacity: 0.02;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }

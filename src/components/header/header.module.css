@@ -11,10 +11,11 @@ header {
     justify-content: center;
     align-items: center;
     gap: 1em;
-    margin: 1em 0 2em 0;
+    margin: 1em 0;
     color: #d8a87c;
 }
 
+/* Remove the links' default style */
 header a:link,
 header a:visited,
 header a:hover,

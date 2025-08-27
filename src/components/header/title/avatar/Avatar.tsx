@@ -1,6 +1,6 @@
 import avatarCss from "./avatar.module.css";
 
-import meJpg from "@/assets/avatar.jpeg";
+import meJpg from "@/assets/avatar.jpg";
 
 
 export default function Avatar() {
