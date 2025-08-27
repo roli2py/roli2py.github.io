@@ -1,11 +1,21 @@
-.header {
+.lexend-font {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+header {
     display: flex;
-    position: fixed;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 1em;
-    width: 11em;
-    height: 100vh;
-    padding: 1em;
-    background-color: lightgray;
-    box-sizing: border-box;
+    margin: 1em 0 2em 0;
+    color: #d8a87c;
+}
+
+header a {
+    color: inherit;
+    text-decoration: inherit;
 }

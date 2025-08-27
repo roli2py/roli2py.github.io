@@ -1,12 +1,7 @@
 nav {
-    list-style-type: none;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: .25em
-}
-
-nav a {
-    color: inherit;
-    text-decoration: none;
+    gap: 1em;
+    list-style-type: none;
 }

@@ -6,7 +6,7 @@ import headerCss from "./header.module.css";
 
 export default function Header() {
     return (
-        <header className={headerCss.header}>
+        <header className={headerCss.lexendFont}>
             <Title />
             <Navigation />
         </header>
