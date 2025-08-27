@@ -8,6 +8,8 @@ import { ReactComponent as Support } from "./pages/support.md";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router";
 
+import "./style.css";
+
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
     <Routes>
