@@ -29,9 +29,9 @@ export default function Navigation() {
             </li>
             <li>
                 <Link
-                    to="/support"
+                    to="/worth-to-mention"
                 >
-                    Support
+                    Worth to mention
                 </Link>
             </li>
         </nav>
